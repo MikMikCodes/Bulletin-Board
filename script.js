@@ -34,7 +34,7 @@ function createNote() {
 //attaching the note text to the node1 element
     node1.innerHTML = noteText;
 //styling the stored note 
-    node1.setAttribute("style", "width:250px; height: 250px; font-size: 26px; padding: 25px; margin-top: 10px; overflow: hidden; box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);");
+    node1.setAttribute("style", "width:250px; height: 250px; font-size: 18px; padding: 25px; margin-top: 10px; overflow: hidden; box-shadow: 0px 10px 24px 0px rgba(0,0,0,0.75);");
 
     node1.style.margin = margin();
     node1.style.transform = rotate();
